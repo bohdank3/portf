@@ -409,3 +409,44 @@ body {
     line-height: 32px;
   }
 }
+
+.section-advanteges {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: $light;
+}
+.advanteges {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  &__title {
+    font-size: 16px;
+    text-transform: uppercase;
+    span {
+      font-size: 22px;
+      display: block;
+      font-weight: 500;
+    }
+  }
+  &-icon {
+    background-color: $dark;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    &-01 {
+      background-image: url(../img/advanteges/icon_01.svg);
+    }
+    &-02 {
+      background-image: url(../img/advanteges/icon_02.svg);
+    }
+    &-03 {
+      background-image: url(../img/advanteges/icon_03.svg);
+    }
+    &-04 {
+      background-image: url(../img/advanteges/icon_04.svg);
+    }
+  }
+}

@@ -467,4 +467,50 @@ body {
   line-height: 32px;
 }
 
+.section-advanteges {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #faf9fe;
+}
+
+.advanteges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+.advanteges__title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.advanteges__title span {
+  font-size: 22px;
+  display: block;
+  font-weight: 500;
+}
+.advanteges-icon {
+  background-color: #22222b;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin: 0 auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.advanteges-icon-01 {
+  background-image: url(../img/advanteges/icon_01.svg);
+}
+.advanteges-icon-02 {
+  background-image: url(../img/advanteges/icon_02.svg);
+}
+.advanteges-icon-03 {
+  background-image: url(../img/advanteges/icon_03.svg);
+}
+.advanteges-icon-04 {
+  background-image: url(../img/advanteges/icon_04.svg);
+}
+
 /*# sourceMappingURL=style.css.map */
