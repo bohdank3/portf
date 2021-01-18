@@ -338,6 +338,7 @@ body {
   font-size: 16px;
   text-decoration: none;
   padding: 20px 0px;
+  border: none;
 }
 .section-banner {
   padding-top: 72px;
@@ -426,6 +427,8 @@ body {
       font-size: 22px;
       display: block;
       font-weight: 500;
+      padding-top: 10px;
+      padding-bottom: 13px;
     }
   }
   &-icon {
@@ -448,5 +451,60 @@ body {
     &-04 {
       background-image: url(../img/advanteges/icon_04.svg);
     }
+  }
+}
+.section-form {
+  padding-bottom: 130px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  min-width: 750px;
+  margin: 48px auto 0;
+
+  &__input,
+  &__textarea {
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 14px;
+    padding: 17px 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: 0.3s;
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid $dark;
+    }
+  }
+  &__textarea {
+    box-sizing: border-box;
+    padding: 10px 25px;
+    min-height: 100px;
+    margin-bottom: 33px;
+  }
+}
+footer {
+  background-color: $dark;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $light;
+  font-size: 16px;
+}
+.social-network {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+
+  &-item {
+    margin-left: 22px;
+  }
+  &__link {
+    color: #fff;
   }
 }
